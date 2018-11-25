@@ -13,6 +13,7 @@ Also, some Expresso UI Tests were elaborated in order to test and validate the a
 If you have any concerns, doubts or suggestion, __[just let me know]__ !
 
 Thanks.
+
 [RETROFIT]:https://square.github.io/retrofit/
 [Picasso]:http://square.github.io/picasso/
 [ExoPlayer]:https://github.com/google/ExoPlayer
