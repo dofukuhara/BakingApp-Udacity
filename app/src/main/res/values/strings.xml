@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Baking App Udacity</string>
+
+    <string name="base_baking_app_json_URL" translatable="false">"http://go.udacity.com/"</string>
+    <string name="title_step_list">Steps</string>
+    <string name="title_step_detail">Step Detail</string>
+    <string name="ingredient_list">Ingredients List</string>
+    <string name="no_bundle_in_intent">No Extra found in the Intent.</string>
+
+    <string name="ing_quantity">Quantity: </string>
+    <string name="ing_ingredient">Ingredient: </string>
+
+    <string name="btn_previous_step">PREVIOUS</string>
+    <string name="btn_next_step">NEXT</string>
+    <string name="appwidget_text">Recipe Name</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="widget_operation_canceled">Widget Created operation canceled... :(</string>
+    <string name="btn_create">Create Widget</string>
+    <string name="tv_select_recipe_widget">Choose a Recipe to list its Ingredients:</string>
+</resources>

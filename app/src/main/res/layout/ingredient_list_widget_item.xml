@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_ing_qty_widget_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/ing_quantity" />
+
+    <TextView
+        android:id="@+id/tv_ing_qty_widget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/tv_ing_qty_widget_label"
+        android:layout_toRightOf="@+id/tv_ing_qty_widget_label"
+        tools:text="This is where ingredient quantity info will lay down"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/tv_ing_ingredient_widget_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/tv_ing_qty_widget_label"
+        android:text="@string/ing_ingredient" />
+
+    <TextView
+        android:id="@+id/tv_ing_ingredient_widget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_ing_qty_widget"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:paddingLeft="4dp"
+        android:paddingStart="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/tv_ing_ingredient_widget_label"
+        android:layout_toRightOf="@+id/tv_ing_ingredient_widget_label"
+        tools:text="This is where ingredient info will lay down" />
+
+
+</RelativeLayout>
